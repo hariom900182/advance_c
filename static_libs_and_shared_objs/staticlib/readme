@@ -1,0 +1,3 @@
+ gcc -c stringfun.c -o lib_stringfun.o ---> compile
+ ar rcs lib_stringfun.a lib_stringfun.o --> make bundle
+ 

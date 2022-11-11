@@ -1,0 +1,3 @@
+gcc -I ../staticlib -c main.c -o main.o --> compile
+gcc -o main main.o ../staticlib/lib_stringfun.a  --> link
+ ./main  ---> run

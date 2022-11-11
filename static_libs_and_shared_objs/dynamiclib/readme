@@ -1,0 +1,1 @@
+gcc -g -fPIC stringfun.c  -shared -o libstrlib.so --->compile 

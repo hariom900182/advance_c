@@ -1,0 +1,6 @@
+ gcc -I ../dynamiclib/ -c main.c  main.o  --> compile
+ gcc -o main main.o -L../dynamiclib -l strlib --> load
+
+./main
+ --> Set LD_LIBRARY_PATH to run ./main
+ export LD_LIBRARY_PATH=/home/mr/work/advance_c/static_libs_and_shared_objs/dynamiclib:$LD_LIBRARY_PATH
